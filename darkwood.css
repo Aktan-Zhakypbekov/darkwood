@@ -1,0 +1,62 @@
+li {
+  display: inline;
+  padding: 80px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: silver;
+}
+nav {
+  text-align: center;
+  margin: 80px;
+  margin-bottom: 210px;
+}
+#main {
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(10, 19, 4);
+  margin: auto;
+  opacity: 0.8;
+}
+#game {
+  width: 45%;
+  height: 45%;
+  background-color: blue;
+  float: left;
+  margin: 25px;
+}
+#plot {
+  width: 45%;
+  height: 45%;
+  background-color: green;
+  float: right;
+  margin: 25px;
+}
+#characters {
+  width: 45%;
+  height: 45%;
+  background-color: cyan;
+  float: left;
+  margin: 25px;
+}
+#inventory {
+  width: 45%;
+  height: 45%;
+  background-color: yellow;
+  float: right;
+  margin: 25px;
+}
+footer {
+  text-align: center;
+  margin-top: 160px;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: silver;
+}
+body {
+  background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/274520/b1591b0faca4a7a7fabf2d12b28d541e674b236e.jpg");
+}
