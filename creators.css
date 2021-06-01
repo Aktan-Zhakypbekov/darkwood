@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://images2.alphacoders.com/953/thumb-1920-953505.jpg");
+}
+button {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(12, 17, 8);
+}
+
+a {
+  color: rgb(98, 112, 98);
+}
+a:hover {
+  text-shadow: 0 0 5px silver;
+}
+h1 {
+  color: silver;
+}
+footer {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+#creators-textdiv {
+  position: relative;
+  left: -450px;
+  width: 950px;
+  height: 860px;
+  margin: auto;
+  background-color: rgb(22, 21, 2);
+  opacity: 0.7;
+  padding: 15px 25px 15px 25px;
+  margin-top: 40px;
+}
+#creators-text {
+  text-align: justify;
+  font-size: 23px;
+  color: rgb(151, 148, 148);
+}

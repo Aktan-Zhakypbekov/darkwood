@@ -108,24 +108,34 @@ a:hover {
 #game-word {
   color: silver;
   position: absolute;
-  top: 32%;
+  top: 34%;
   left: 6%;
 }
 #plot-word {
   color: silver;
   position: absolute;
-  top: 32%;
+  top: 34%;
   left: 56%;
 }
 #characters-word {
   color: silver;
   position: absolute;
-  top: 82%;
+  top: 84%;
   left: 6%;
 }
 #inventory-word {
   color: silver;
   position: absolute;
-  top: 82%;
+  top: 84%;
   left: 56%;
+}
+
+#about-textdiv {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  background-color: rgb(1, 17, 1);
+}
+#about-text {
+  text-align: center;
 }
