@@ -15,7 +15,7 @@ nav {
 #main {
   width: 1010px;
   height: 1010px;
-  background-color: rgb(1, 17, 1);
+  background-color: rgb(6, 14, 1);
   margin: auto;
   opacity: 0.85;
   position: relative;
@@ -26,23 +26,23 @@ nav {
 }
 #game {
   background-color: red;
-  border-top: 10px solid rgb(1, 17, 1);
-  border-left: 10px solid rgb(1, 17, 1);
+  border-top: 10px solid rgb(6, 14, 1);
+  border-left: 10px solid rgb(6, 14, 1);
 }
 #plot {
   background-color: green;
-  border-top: 10px solid rgb(1, 17, 1);
-  border-right: 10px solid rgb(1, 17, 1);
+  border-top: 10px solid rgb(6, 14, 1);
+  border-right: 10px solid rgb(6, 14, 1);
 }
 #characters {
   background-color: yellow;
-  border-left: 10px solid rgb(1, 17, 1);
-  border-bottom: 10px solid rgb(1, 17, 1);
+  border-left: 10px solid rgb(6, 14, 1);
+  border-bottom: 10px solid rgb(6, 14, 1);
 }
 #inventory {
   background-color: blue;
-  border-right: 10px solid rgb(1, 17, 1);
-  border-bottom: 10px solid rgb(1, 17, 1);
+  border-right: 10px solid rgb(6, 14, 1);
+  border-bottom: 10px solid rgb(6, 14, 1);
 }
 footer {
   text-align: center;
@@ -128,14 +128,4 @@ a:hover {
   position: absolute;
   top: 84%;
   left: 56%;
-}
-
-#about-textdiv {
-  width: 1000px;
-  height: 1000px;
-  margin: auto;
-  background-color: rgb(1, 17, 1);
-}
-#about-text {
-  text-align: center;
 }
