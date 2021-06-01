@@ -15,37 +15,39 @@ nav {
 #main {
   width: 1000px;
   height: 1000px;
-  background-color: rgb(10, 19, 4);
+  background-color: rgb(6, 17, 1);
   margin: auto;
-  opacity: 0.8;
+  opacity: 0.7;
+  position: relative;
+  text-align: center;
 }
 #game {
   width: 45%;
   height: 45%;
-  background-color: blue;
   float: left;
   margin: 25px;
+  background-color: green;
 }
 #plot {
   width: 45%;
   height: 45%;
-  background-color: green;
   float: right;
   margin: 25px;
+  background-color: red;
 }
 #characters {
   width: 45%;
   height: 45%;
-  background-color: cyan;
   float: left;
   margin: 25px;
+  background-color: yellow;
 }
 #inventory {
   width: 45%;
   height: 45%;
-  background-color: yellow;
   float: right;
   margin: 25px;
+  background-color: blue;
 }
 footer {
   text-align: center;
@@ -59,4 +61,76 @@ h2 {
 }
 body {
   background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/274520/b1591b0faca4a7a7fabf2d12b28d541e674b236e.jpg");
+}
+#game-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+#plot-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+#characters-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+#inventory-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+a {
+  color: rgb(98, 112, 98);
+}
+a:hover {
+  text-shadow: 0 0 5px silver;
+}
+#game:hover #game-img,
+#plot:hover #plot-img,
+#characters:hover #characters-img,
+#inventory:hover #inventory-img {
+  transform: scale(1.05);
+}
+#game:hover #game-word,
+#plot:hover #plot-word,
+#characters:hover #characters-word,
+#inventory:hover #inventory-word {
+  transform: scale(1.08);
+  text-shadow: 0 0 5px #ffffff;
+}
+
+#game-word {
+  color: silver;
+  position: absolute;
+  top: 32%;
+  left: 6%;
+}
+#plot-word {
+  color: silver;
+  position: absolute;
+  top: 32%;
+  left: 56%;
+}
+#characters-word {
+  color: silver;
+  position: absolute;
+  top: 82%;
+  left: 6%;
+}
+#inventory-word {
+  color: silver;
+  position: absolute;
+  top: 82%;
+  left: 56%;
 }
